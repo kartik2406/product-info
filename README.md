@@ -48,7 +48,7 @@ The admin folder should contain [config.yml](https://www.netlifycms.org/docs/sta
 
 11. Visit `http://localhost:8000/admin/`, you would be prompted to login with git. Once done you will be shown the CMS UI. Here you will see the products which we have already added as part of previos steps. You can also edit, add , delete products.
 
-12. Once you add or remove products, changes will be auto saved to master, and netlify will trigger a new build , you will be able to see your changes.
+12. Once you add or remove products, click on publish to save your changes to master and netlify will trigger a new build , you will be able to see your changes.
 
 
 
