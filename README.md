@@ -38,8 +38,17 @@ Steps followed.
 ```
 
 7. Install lodash.
-8. Use the same query inside the page that should fetch list of products.
+8. Use the same query inside the page that should fetch list of products, this data will be passed as props to the component. Use it to display the product list.
 
+9. Setting up CMS
+Install these two dependencies `netlify-cms gatsby-plugin-netlify-cms` and add `gatsby-plugin-netlify-cms` to gatsby-config.
+
+10. Create `static` folder at project root, inside it create admin folder.
+The admin folder should contain [config.yml](https://www.netlifycms.org/docs/start-with-a-template/)
+
+11. Visit `http://localhost:8000/admin/`, you would be prompted to login with git. Once done you will be shown the CMS UI. Here you will see the products which we have already added as part of previos steps. You can also edit, add , delete products.
+
+12. Once you add or remove products, changes will be auto saved to master, and netlify will trigger a new build , you will be able to see your changes.
 
 
 
